@@ -4,6 +4,13 @@ body {
     background-color: coral;
 }
 
+.encabezado{
+    width: 100%;
+    height: 100px;
+    background-image: url(img/E_1.jpg);
+
+}
+
 .nav{
     width: 100%;
     height: 40px;
@@ -11,15 +18,31 @@ body {
 }
 
 ul {
-    width: 100%;
-    heigt: 30;
     list-style-type: none;
     margin: 0;
     padding: 0;
-      
-}
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
 
-li {
-    display: inline;
-    padding: 60px;
-}
+  .contenido{
+      width: 100%;
+      height: auto;
+  }
