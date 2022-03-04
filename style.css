@@ -7,43 +7,59 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+.encabezado{
+  margin: 0;
+  width: 100%;
+  height: 50vh;
+  background-color: black;
+}
+
+.title-pag h1{
+  margin: 0;
+  text-align: center;
+  color: white;
+  font-size: 100px;
+  padding-top: 60px ;
+}
+
 .nav{
     width: 100%;
     height: 40px;
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: rgb(223, 219, 219);
-    box-shadow: 5px 1px 5px rgb(65, 64, 64);
+ul{
+  width: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(223, 219, 219);
+  box-shadow: 5px 1px 5px rgb(65, 64, 64);
+}
+  
+li{
+  float: left;
+}
+  
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: #111;
+}
+  
 
-  }
-  
-  li {
-    float: left;
-  }
-  
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    color: #111;
-  }
-  
-  /* Change the link color to #111 (black) on hover */
-  li a:hover {
-    background-color: #111;
-  }
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
 
-  .main{
-      width: 100%;
-      height: 100%;
-  }
+.main{
+    width: 100%;
+    height: 100%;
+}
 
 .browser{
     margin: 200px 35%;
@@ -52,20 +68,35 @@ ul {
     color: antiquewhite;
 }
 
-  h1{
+
+
+
+h1{
       margin: 0;
       text-align: center;
       font-size: 100px;
-  }
+}
 
-  #Buscador {
-    background: url(https://cdn0.iconfinder.com/data/icons/slim-square-icons-basics/100/basics-19-32.png) no-repeat 0px 10px;
-    background-size: 24px;
-    width: 400px;
-    color: white;
-    font-size: large;
-    border: transparent;
-    border-bottom: solid 1px #ccc;
-    padding: 10px 10px 10px 30px;
-    outline: none;
-  }
+#Buscador {
+  background: url(https://cdn0.iconfinder.com/data/icons/slim-square-icons-basics/100/basics-19-32.png) no-repeat 0px 10px;
+  background-size: 24px;
+  width: 400px;
+  color: white;
+  font-size: large;
+  border: transparent;
+  border-bottom: solid 1px #ccc;
+  padding: 10px 10px 10px 30px;
+  outline: none;
+}
+
+#Buscadorpags {
+  background: url(https://cdn0.iconfinder.com/data/icons/slim-square-icons-basics/100/basics-19-32.png) no-repeat 0px 10px;
+  background-size: 24px;
+  width: 400px;
+  color: black;
+  font-size: large;
+  border: transparent;
+  border-bottom: solid 2px #ccc;
+  padding: 11px 10px 10px 30px;
+  outline: none;
+}
